@@ -110,5 +110,52 @@ html, body{
 #right{
     width: 60%;
     height: 100%;
+    padding: 50px;
+    white-space: nowrap;
+    overflow-x: auto;
 }
 
+#right::-webkit-scrollbar{
+    display: none;
+}
+
+.elem{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.elem img{
+    position: absolute;
+    height: 70%;
+    top: 10%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #d0d4d5;
+    padding: 17px 34px;
+    border-radius: 6px;
+    z-index: 2;
+}
+
+.elem h5{
+    position: absolute;
+    bottom: 12%;
+    right: 0;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 500;
+    padding: 17px 34px;
+    font-size: 13px;
+    border-radius: 6px;
+}
