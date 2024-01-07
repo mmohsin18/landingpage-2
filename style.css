@@ -54,3 +54,61 @@ html, body{
     font-size: 3vh;
     font-weight: 500;
 }
+
+#content{
+    height: calc(100% - 90px);
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+#left{
+    width: 40%;
+    height: 100%;
+    padding: 40px 120px;
+}
+
+#left h5{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #535353;
+}
+
+#left h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+#left p{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+#left button{
+    padding: 12px 40px ;
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 15px;
+    border-top-left-radius: 0;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all ease 0.2s;
+    border: 2px solid #000;
+}
+
+#left button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000;
+}
+
+
+#right{
+    width: 60%;
+    height: 100%;
+}
+
